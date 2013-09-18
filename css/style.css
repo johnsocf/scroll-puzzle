@@ -1,0 +1,205 @@
+/*globals*/
+body {
+	background-color: #000;
+	padding: 10px;
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+}
+h1 {
+	text-align: center;
+	padding: 20px;
+	color: #FFF;
+}
+p {
+	padding: 5px 40px;
+}
+p.first {
+	margin-top: 40px;
+}
+/*navigation*/
+#menu {
+	float: left;
+	margin-top: 110px;
+	background-color: #fff;
+	width: 1080;
+	height: 30px;
+	margin-left:1 5px;
+}
+.nav {
+	position: fixed;
+	z-index: 10;
+}
+.fixed {
+	position:fixed;
+}
+.up {
+	height: 50px;
+	width: 50px;
+	background-color: #fff;
+}
+.down {
+	height: 50px;
+	width: 50px;
+	background-color: #fff;
+}
+ul.nav {
+	max-width: 1288px;
+	left: 7%;
+	top: 8%;
+	width: 87%;
+	height: 30px;
+	margin: 0 auto;
+	list-style: none;
+	padding: 7px;
+	background-color: #000;
+
+}
+ul.nav li{
+	float: left;
+}
+ul.nav li a {
+	display: block;
+	margin: 0px 5px;
+	width: 150px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.8;
+	color: #000;
+}
+ul.nav li a.up {
+	 margin-left: 33px;
+	 width: 150px; 
+	 height: 30px;
+ }
+ul.nav li a.down {
+	 width: 150px;
+	 height: 30px;
+ }
+/*main content*/
+#container {
+	max-width: 1088px;
+	margin: 0 auto;
+	width: 88%;
+	max-height: 2100px;
+	padding-bottom: 84%;
+	background-color: #fff;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image:url(../images/papertwo.jpg);
+}
+
+#content {
+	width: 97%;
+	max-height: 960px;
+	height: 100%;
+	background-color: #fff;
+	position: relative;
+}
+
+#background {
+	padding-bottom: 430%%;
+	width: 103.1%;
+	position: absolute;
+	background-size: 100%;
+	background-image: url(../images/papertwo.jpg);
+}
+
+.heading {
+	background-color: #fff;
+	color: #000;
+	height: 2%;
+	width: 100%;
+	position: absolute;
+	top: .5%;
+}
+
+#title {
+	height: 120px;
+	width: 100%;
+}
+
+#page1 {
+	padding-bottom: 12%;
+	max-width: 1000px;
+	width: 95%;
+	left: 4%;
+	top:4%;
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	position: relative;
+	opacity: .8;
+	background-image: url(../images/mountains.jpg);
+	background-size: 100%;
+}
+#base2 {
+	height: 19%;
+	width: 100%;
+	background-color: #fff;
+}
+#base3 {
+	max-width: 1180px;
+	width: 102.9%;
+	padding-bottom: 114%;
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	left: 0%;
+	border:1px solid #fff;
+	position: absolute;
+	opacity: 1;
+	background-image: url(../images/pebblelake.jpg);
+	background-size: 100%;
+}
+#page4 {
+	width: 95%;
+	background-color: white;
+	position: absolute;
+	padding-bottom: 1%;
+	top: 146%;
+	left: 4%;
+}
+#credits {
+	position: absolute;
+	top: 267%;
+	left: 4%;
+}
+@media (max-width: 767px) {
+	#credits {
+		top: 213%;
+	}
+}
+@media (max-device-width: 675px) {
+	#credits {
+		top: 213%;
+	}
+}
+@media (max-device-width: 480px) and (orientation:portrait) {
+	#background {
+		padding-bottom: 700%;
+	}
+	#page4 {
+		padding-bottom: 47%;
+		top: 149%;
+	}
+	#base3 {
+		padding-bottom: 85%;
+		top: 113%;
+		display:none;
+	}
+	#page1 {
+		padding-bottom: 178%;
+	}
+	#base2 {
+		height: 0px;
+	}
+	p {
+		font-size: 100%
+	}
+	h1 {
+		font-size: 120%;
+	}
+	ul.nav li a.up {
+	 margin-left: 5px;
+ }
+}
